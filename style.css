@@ -1,0 +1,9 @@
+#main_container {
+	margin:auto;
+	text-align:center;
+	width:1000px;
+	background-color:beige;
+	border-style:ridge;
+	border-width:5px;
+}
+
