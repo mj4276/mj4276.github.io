@@ -1,3 +1,8 @@
+p {
+	padding: 2px 2px 5px 5px;
+	margin:auto;
+}
+
 .main_container {
 	margin:auto;
 	padding:20px;
@@ -8,3 +13,46 @@
 	border-width:5px;
 }
 
+#cookie-window {
+	position:sticky;
+	bottom:20px;
+	margin:auto;
+	float:bottom;
+	border:2px outset #C0C0C0;
+	height:100px;
+	width:800px;
+	background-color:white;
+	box-shadow: 5px 5px 8px Gray;
+	font-family:MS Sans Serif;
+	font-size: 14px;
+}
+
+#cookie-header {
+	height:30px;
+	border:inherit;
+	border-style:solid;
+	background-color:#062AC4;
+	color:white;
+	font-size:18px;
+}
+
+#cookie-body {
+	border:inherit;
+	border-style:solid;
+	height:62px;
+}
+
+.cook-but {
+	display:inline-block;
+	border:4px outset #C0C0C0;
+	background-color: #B0B0B0;
+	height:20px;
+	text-align:center;
+	float:right;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.cook-but:active {
+	border-style:inset;
+}
