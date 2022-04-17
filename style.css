@@ -1,6 +1,10 @@
 p {
-	padding: 2px 2px 5px 5px;
+	padding: 2px 5px 2px 5px;
 	margin:auto;
+}
+
+ul {
+	margin-top: 5px;
 }
 
 .main_container {
