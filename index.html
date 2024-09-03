@@ -1,47 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Michael's Webcorner</title>
-	<link href="style.css" rel="stylesheet">
-	<link rel="icon" type="image/png" href="favicon.png">
-  </head>
-  <body style="background-image:url('bgd.jpg')">
-	<div class="main_container">
-		<h1 style="font-family:consolas; font-size:45px; text-shadow:5px 5px 2px grey"> Michael Justin's World-Wide Web Page </h1>
-		<p>Hi, hello, and welcome.</p>
-		<a href="me-gif.html" style="color:lightgray"><img src="Space.gif" style="border-style:outset"></a>
-		<p>This website is currently under construction</p>
-		<div style="text-align:left; margin-top:30px">
-			<p>Welcome to the <em>new</em> mode of socialization and networking! Check out my friends' homepages with the hyperlinks below:</p>
-			<ul>
-				<li><a href="https://zewski.net">Jake</a></li>
-				<li><a href="https://menchine.com">Conrad</a></li>
-				<li><a href="https://studiocamper.net/">Aidan</a></li>
-				<li><a href="https://sakithecat.net/">Saki The Cat</a></li>
-				<li><a href="http://cyclesheroic.blogspot.com/">Cycles Heroic</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="main_container" style="margin-top:20px; padding-bottom:20px">
-		<h2>In the meanwhile, have some entertainment:</h2>
-		<iframe style="border-style:outset; border-width:4px" width="480" height="360" src="https://www.youtube.com/embed/TcEQIXzQBw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
-	<div id="cookie-window">
-		<div id="cookie-header">
-			<p>WOAH! Watch Out There!
-				<span class="cook-but" style="color:black; width:16px; height:16px; font-size:14px; float:right">
-					<b>X</b>
-				</span>
-			</p>
-		</div>
-		<div id="cookie-body">
-			<p>This website doesn't use cookies!<br>
-				<span class="cook-but">
-					And this button doesn't do anything!
-				</span>
-			</p>
-		</div>
-	</div>
-  </body>
-</html>
+---
+layout: default
+title: mjustin.net
+---
+
+<h1>Fresh from the weB log:</h1>
+
+{% for post in site.posts %}
+<h2 class="post-list-title"><a href="{{ post.url }}" class="post-list-link">{{ post.title }}</a><span class="post-list-date"> — {{ post.date | date: "%Y-%m-%d" }}<span></h2>
+	<p class="post-list-excerpt">{{ post.excerpt | strip_html | strip }}...</p>
+{% endfor %}

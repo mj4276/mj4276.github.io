@@ -1,0 +1,86 @@
+body {
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+main, .main-header {
+  width: 80%;
+  margin: 0.6em auto 0.6em auto;
+  text-align: left;
+}
+
+main {
+  padding: 1em 2em 1em 2em;
+  background-color: beige;
+  border-style: ridge;
+  border-width: 5px;
+  overflow: auto;
+}
+
+.logo {
+  display: inline;
+  font-size: 3em;
+  margin: 0.3em 0.5em 0.3em 0.2em;
+  font-family: "courier new", monospace;
+  font-weight: bolder;
+  text-shadow: 0.1em 0.2em 0.2em Gray;
+  text-decoration: none;
+  color: #202020;
+}
+
+nav {
+  margin: 0.3em;
+  justify-content: space-evenly;
+  display: inline-block;
+}
+
+.nav-link {
+  display: inline-block;
+  border: 0.3em outset #C0C0C0;
+  background-color: #B0B0B0;
+  padding: 0.5em;
+  text-decoration: none;
+  color: black;
+  font-family: "MS Sans Serif";
+  width: 5em;
+  text-align: center;
+  margin: 0em 0.3em 0em 0.3em;
+}
+
+.nav-link:hover {
+  background-color: #B8B8B8;
+}
+
+.nav-link-current, .nav-link:active {
+  border-style: inset;
+}
+
+.post-list-date {
+  font-weight: lighter;
+}
+
+.post-list-title {
+  margin: 0.7em 0em 0.5em 0em;
+}
+
+.post-title {
+  margin: auto;
+}
+
+.post-date {
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: "Courier New";
+}
+
+.post-list-title, p, li {
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
