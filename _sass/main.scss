@@ -15,6 +15,7 @@ main {
   border-style: ridge;
   border-width: 5px;
   overflow: auto;
+  font-family: sans-serif;
 }
 
 .logo {
@@ -79,6 +80,37 @@ h1, h2 {
   font-family: "Courier New";
 }
 
-.post-list-title, p, li {
+.post-list-title {
   font-family: sans-serif;
+}
+
+blockquote {
+  font-size: 1.3em;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+img {
+  display: block;
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-float-right {
+  float: right;
+}
+.img-float-right, .img-float-left {
+  width: 30%;
+  box-shadow: 0.3em 0.3em 0.3em Gray;
+  margin: 1em 1em 1em 1em;
+}
+
+.img-float-left {
+  float: left;
+}
+
+.post-content {
+  font-size: 1.2em;
 }

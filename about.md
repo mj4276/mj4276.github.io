@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-![The author](/assets/images/headshot.jpg){:style="float: right;box-shadow: 0.3em 0.3em 0.3em Gray;margin: 0em 0em 1em 1em"}
+![The author](/assets/images/headshot.jpg){:class="img-float-right"}
 
 # Greetings #
 
