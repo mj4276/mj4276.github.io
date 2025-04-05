@@ -26,4 +26,8 @@ We finally stopped in a complex of 19th century buildings at the bottom of Wilde
 
 Although the picnic concluded the scheduled activities for the day, most of our group made it to a westside brewery, relishing the spectacle that we were. After more than one hundred years of inactivity, the Santa Cruz Wheelmen and Wheelwomen ride again!
 
+![The Ladies Tintype](/assets/images/wheelmen_ladies_tintype.jpg)
+
+![The Gents Tintype](/assets/images/wheelmen_gents_tintype.jpg)
+
 ![The Wheelmen and Wheelwomen arrive at Wilder Ranch](/assets/images/wheelmen_arrive.jpg)
